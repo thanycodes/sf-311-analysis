@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files — keep large CSVs out of git
+data/raw/
+data/cleaned/
+*.csv
+*.parquet
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env vars
+.env
